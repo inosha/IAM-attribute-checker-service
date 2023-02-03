@@ -1,4 +1,4 @@
-# IAM-attriute-checker-service
+# IAM-attriute-checker-SP
  Attribute Checker for shibboleth IDP
 
 Shibboleth Operational Diagram
