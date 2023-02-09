@@ -6,6 +6,9 @@ The figure below shows basic Shibboleth data flow beginning with a user requesti
 
 image:
 
+
+<img align="center" src="https://identity.it.ufl.edu/wp-content/uploads/2012/08/shibboleth_flow.jpg" alt="INOSHA" height="20" width="20" />
+
 Motivation...
 Though SSO flow is simple & secure, issue tracking not simple... 
 
