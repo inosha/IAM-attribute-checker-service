@@ -3,8 +3,6 @@
 
 Shibboleth Operational Diagram
 The figure below shows basic Shibboleth data flow beginning with a user requesting service from a service provider web site. Using Shibboleth, the service provider does not request the user name and password. This is done by the identity provider idp.organization.TLD which is the Shibboleth Service.
-
-
 <!--
 <img align="center" src="https://identity.it.ufl.edu/wp-content/uploads/2012/08/shibboleth_flow.jpg" alt="INOSHA" height="20" width="20" />
 -->
