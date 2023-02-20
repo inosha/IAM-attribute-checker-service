@@ -2,5 +2,5 @@
 # * text=auto
 index.js linguist-language=JavaScript
 index.css linguist-language=css
-index.html linguist-language=html
+index.php linguist-language=php
 
