@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Attributes received from IDP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+  .border {
+    display: inline-block;
+    margin: 6px;
+  }
+  </style>
+
+
+<script>
+var j = 0;
+var txt2 = 'Success! You have been signed in successfully!! Associated Attributes are listed here...';
+var speed = 30;
+
+function typeWriter() {
+  if (j < txt2.length) {
+    document.getElementById("text2").innerHTML += txt2.charAt(j);
+    j++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+
+</head>
+<body onload="typeWriter()">
+
+<div class="jumbotron text-center" >
+  <p id="text2"></p>
+</div>
+
+ <div class="row text-left px-2">
+
+    <?php
+    
+    foreach ($_SERVER as $key => $value){
+       print $key." = ".$value."<br>";
+    }
+</div>
+
+
+</body>
+</html>
+
