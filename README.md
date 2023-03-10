@@ -10,4 +10,9 @@ Motivation...
 Though SSO flow is simple & secure, issue tracking not simple... 
 
 Before deploying this app... few shibboleth specific steps to be followed..
+in a nutshell,
+1)Identity provider required..
 
+2)This has configure as the sevice privider with Shibboleth SP(handles Metadata & Attribute Mapping)  
+
+3) 
