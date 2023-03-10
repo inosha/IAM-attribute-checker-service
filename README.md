@@ -15,4 +15,12 @@ in a nutshell,
 
 2)This has configure as the sevice privider with Shibboleth SP(handles Metadata & Attribute Mapping)  
 
-3) 
+3) apache server configurations for /secure directory
+
+RedirectMatch    ^/$  /secure
+
+<Location /secure>
+  Authtype shibboleth
+  ShibRequireSession On
+  require valid-user
+</Location>
