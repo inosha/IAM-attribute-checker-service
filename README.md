@@ -24,3 +24,9 @@ RedirectMatch    ^/$  /secure
   ShibRequireSession On
   require valid-user
 </Location>
+
+4) /secure : place where authN requires and the app directory
+
+
+
+5) $_SERVER is an array
