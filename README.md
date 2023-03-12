@@ -31,4 +31,4 @@ RedirectMatch    ^/$  /secure
 Features:
 This App render HTML from object array: $_SERVER,
 Print function,
-await for bruteforce attempt,
+await for bruteforce attempt(Beta),
