@@ -28,5 +28,6 @@ RedirectMatch    ^/$  /secure
 4) /secure : place where authN requires and the app directory
 
 
-
-5) $_SERVER is an array
+Features:
+This App render HTML from object array: $_SERVER,
+Print function,
