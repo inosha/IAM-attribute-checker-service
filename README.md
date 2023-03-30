@@ -8,7 +8,7 @@ The figure below shows basic Shibboleth data flow beginning with a user requesti
 -->
 image:
 *** 
-![](images/shibboleth_flow.jpeg)
+![](images/screen.gif)
 
 Motivation...
 Though SSO flow is simple & secure, issue tracking not simple... 
